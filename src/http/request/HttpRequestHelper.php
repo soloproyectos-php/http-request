@@ -74,6 +74,6 @@ class HttpRequest
      */
     public static function del($name)
     {
-        Arr::del($_REQUEST, $name);
+        Arr::delete($_REQUEST, $name);
     }
 }
